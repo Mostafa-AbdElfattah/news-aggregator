@@ -1,0 +1,17 @@
+@import "../../scss/variables";
+
+.app-navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 40px;
+    box-shadow: 0 4px 8px $nav-bar-shadow;
+
+    .title{
+        padding-inline-start: 10px;
+        font-weight: bold;
+        font-size: 28px;
+        color: $main-red;
+
+    }
+}

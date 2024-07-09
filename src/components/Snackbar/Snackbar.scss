@@ -1,0 +1,34 @@
+@import "../../scss/variables";
+
+.snackbar-container {
+  .snackbar.success {
+    .MuiSnackbarContent-root {
+      background-color: $sucess-background;
+      color: $white;
+    }
+  }
+  .snackbar.error {
+    .MuiSnackbarContent-root {
+      background-color: $error-background;
+      color:$white;
+    }
+  }
+  .MuiSnackbarContent-root {
+    justify-content: center;
+  }
+  .alert_no_1 {
+    bottom: 25px;
+  }
+  .alert_no_2 {
+    bottom: 75px;
+  }
+  .alert_no_3 {
+    bottom: 125px;
+  }
+  .alert_no_4 {
+    bottom: 175px;
+  }
+  .alert_no_5 {
+    bottom: 225px;
+  }
+}

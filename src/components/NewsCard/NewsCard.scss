@@ -1,0 +1,42 @@
+@import "../../scss/variables";
+@import "../../scss/media";
+
+.news-card-container {
+    .image-container {
+        position: relative;
+        width: 100%;
+        height: 200px;
+        cursor: pointer;
+        border-radius: 5px;
+
+        img {
+            object-position: top;
+            border-radius: 5px;
+        }
+
+    }
+
+    .title {
+        font-size: 22px;
+        margin-top: 10px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+    }
+
+    .description {
+        font-size: 18px;
+        margin-top: 10px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 3;
+        color: $text-light-gray;
+    }
+
+    .tag{
+        margin-bottom: 10px;
+        color: $main-red;
+    }
+}
